@@ -14,6 +14,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  margin: 0 auto;
   padding-top: 100px;
 }
 
@@ -30,4 +31,32 @@
 .main p {
   font-weight: 200;
   font-size: 12px;
+}
+
+.main-form {
+  position: relative;
+  top: 70px;
+}
+
+.signIn-box {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 30px;
+}
+
+.signIn {
+  border: 1px solid white;
+  width: 540px;
+  height: 70px;
+  background: none;
+  border: none;
+  color: var(--white-color1);
+  font-size: 16px;
+  border-bottom: 2px solid var(--white-color1);
+}
+
+.checkbox {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 15px;
 }
