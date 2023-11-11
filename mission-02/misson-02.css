@@ -38,7 +38,7 @@
   top: 70px;
 }
 
-.signIn-box {
+.main-signIn-box {
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
@@ -55,7 +55,7 @@
   border-bottom: 2px solid var(--white-color1);
 }
 
-.checkbox {
+.main-checkbox {
   font-size: 14px;
   font-weight: 300;
   padding-top: 15px;
